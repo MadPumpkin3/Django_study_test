@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from config.views import main, berger_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("", main),
+    path("burgers/", berger_list),
 ]
