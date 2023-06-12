@@ -6,5 +6,5 @@ def main(request):
     # render 함수에서 첫 번째 인수는 request객체, 두 번째 인수는 Templated의 경로를 지정
     return render(request, "main.html")
 
-def berger_list(request):
-    return render(request, "burger_list")
+def burger_list(request):
+    return render(request, "burger_list.html")
