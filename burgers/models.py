@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Burger(models.Model):
     name = models.CharField(max_length=20)  # CharField은 문자열을 저장하는 명령어
